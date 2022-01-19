@@ -1,0 +1,4 @@
+pyuic5 untitled.ui -o untitled.py
+pyrcc5 pngs.qrc -o pngs.py
+
+pyinstaller.exe --onefile --windowed --icon=pngwing.ico -n "запрошення на співбесіду" main.py
